@@ -1,21 +1,3 @@
-// import mysql from 'mysql'
-
-// const con = mysql.createConnection({
-//     host: "localhost",
-//     user: "root",
-//     password: "7090",
-//     database: "db"
-// })
-
-// con.connect(function(err) {
-//     if(err) {
-//         console.log("connection error")
-//     } else {
-//         console.log("Connected")
-//     }
-// })
-
-// export default con;
 
 import mysql from 'mysql2';
 import dotenv from 'dotenv';
